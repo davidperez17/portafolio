@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+:root {
+  --main-color: #000;
+  --bgc-gray-texto: #7e7e7e;
+  --bgc-circle-color: #1e1e1e;
+  --main-texto-color: #fff;
+  --white: #fff;
+}
+
+body {
+  background-color: var(--main-color);
+  color: var(--main-texto-color);
+}
+
+.nav {
+  margin-top: 20px;
+  height: 4.5rem;
+  width: 100%;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.lista {
+  display: flex;
+  list-style: none;
+  color: #000;
+
+  width: 350px;
+  height: 100%;
+  padding: 20px;
+
+  border-radius: 10px;
+
+  background-color: var(--white);
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.item a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+.item a:hover {
+  color: gray;
+}
+
+.hamburguesa {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  z-index: 1;
+
+  user-select: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.hamburguesa span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  position: relative;
+
+  background-color: black;
+  border-radius: 6px;
+  z-index: 1;
+  transform-origin: 0 0;
+  transition: 0.4s;
+}
+
+.hamburguesa:hover span:nth-child(2) {
+  transform: translateX(10px);
+  background-color: red;
+}
