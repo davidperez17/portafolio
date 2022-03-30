@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,7 @@ html {
   width: 100%;
   height: auto;
   font-size: 62.5%;
+  font-family: "Italiana", serif;
 }
 :root {
   --main-color: #000;
@@ -93,7 +95,10 @@ body {
 
 .main {
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+.main__me {
+  height: auto;
 }
 .me__info {
   width: auto;
@@ -104,19 +109,43 @@ body {
   align-items: center;
 }
 .me__txt {
-  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 30%;
+  height: auto;
+  /* border: 1px solid red; */
+  font-size: 6rem;
 }
 .span-1 {
-  position: relative;
-  right: 60px;
   color: var(--bgc-gray-texto);
+  align-self: flex-start;
 }
-
+.span-2 {
+  align-self: center;
+}
+.span-3 {
+  /* margin-left: 220px; */
+  align-self: center;
+}
+.span-4 {
+  align-self: flex-end;
+}
 .logos {
-  position: absolute;
-  left: 34%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 50px;
+  /* border: 1px solid red; */
 }
-
+.logos img {
+  width: 30px;
+  height: 30px;
+}
 .me__img {
   width: 360px;
   height: 580px;
@@ -127,8 +156,6 @@ body {
 }
 
 .hoja__rota {
-  position: relative;
-  bottom: 160px;
   width: 100%;
   height: 720px;
 
@@ -136,6 +163,7 @@ body {
   background-size: contain;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -145,7 +173,125 @@ body {
   font-size: 3rem;
   text-align: right;
 }
-img {
-  width: 50px;
-  height: 50px;
+
+.web-developer {
+  width: 80%;
+  height: auto;
+
+  margin: 0 auto;
+  font-size: 5rem;
 }
+.web-developer h2 {
+  color: var(--bgc-gray-texto);
+}
+.web-developer p {
+  text-align: justify;
+}
+.web-developer a {
+  color: white;
+}
+.arrow__down {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+}
+.proyects {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+
+  grid-template-areas:
+    "item1 item2 item2"
+    "item3 item3 item4";
+}
+.proyect__item {
+  place-self: center;
+  width: 100%;
+  height: 420px;
+  justify-self: center;
+
+  border-radius: 20px;
+}
+.item1 {
+  background: url(./img/1-pro.png) no-repeat center;
+  background-size: cover;
+
+  grid-area: item1;
+}
+.item2 {
+  background: url(./img/3-landing.png) no-repeat center;
+  background-size: cover;
+
+  grid-area: item2;
+}
+.item3 {
+  background: url(./img/3-netflix.png) no-repeat center;
+  background-size: cover;
+
+  grid-area: item3;
+}
+.item4 {
+  background: url(./img/2-nft.png) no-repeat center;
+  background-size: cover;
+
+  grid-area: item4;
+}
+
+.conocimiento__h2 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 6rem;
+  color: var(--bgc-gray-texto);
+}
+
+.conocimiento {
+  width: 100%;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 50px;
+
+  gap: 140px;
+}
+.conocimiento div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 3rem;
+
+  text-align: center;
+
+  width: auto;
+  height: auto;
+}
+.conocimiento img {
+  width: 120px;
+  height: 120px;
+}
+
+/* @media screen and (max-width: 768px) {
+  .proyects {
+    grid-template-areas:
+      "item1 item1 item1"
+      "item2 item2 item2"
+      "item3 item3 item3"
+      "item4 item4 item4";
+  }
+} */
