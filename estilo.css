@@ -113,7 +113,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  font-size: clamp(5vw, 50%, 7vw);
+  font-size: clamp(7vw, 50%, 9vw);
 
   width: auto;
   height: auto;
