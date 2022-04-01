@@ -98,32 +98,34 @@ body {
   width: 100%;
   height: auto;
 }
+
 .me__info {
-  width: auto;
-  height: 100%;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 50px;
 }
+
 .me__txt {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
-  width: clamp(300px, 30%, 600px);
+  font-size: clamp(5vw, 50%, 7vw);
+
+  width: auto;
   height: auto;
-  font-size: 6rem;
 }
+
 .span-1 {
   color: var(--bgc-gray-texto);
-  align-self: flex-start;
 }
 .span-2 {
   align-self: center;
 }
+
 .span-3 {
   align-self: center;
 }
@@ -133,52 +135,18 @@ body {
 .logos {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   gap: 10px;
-  width: 100%;
-  height: 50px;
 }
-.logos img {
-  width: 30px;
-  height: 30px;
+.logos--end {
+  width: 3vw;
+  height: auto;
 }
-.me__img {
-  width: clamp(200px, 60vw, 400px);
-  height: min(580px);
-  filter: grayscale(1);
-  /* border: 1px solid; */
-
-  background-image: url(./img/me.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.down {
-  margin-top: 80px;
-  text-align: center;
+.me--img {
+  width: clamp(120px, 50%, 450px);
+  height: auto;
 }
 
-.hoja__rota {
-  width: 100%;
-  height: 786px;
-
-  background-image: url(./img/Ripped\ Paper.png);
-  background-size: cover;
-  background-repeat: repeat-x;
-  background-position: center;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.hoja__text {
-  color: #000;
-  font-size: 3vw;
-  text-align: right;
-}
-
+/* ! web developer */
 .web-developer {
   width: 80%;
   height: auto;
@@ -365,18 +333,5 @@ body {
       "item2 item2 item2"
       "item3 item3 item3"
       "item4 item4 item4";
-  }
-  .me__txt {
-    margin-left: 20px;
-  }
-  .span-1,
-  .span-2,
-  .span-3,
-  .span-4 {
-    font-size: 4rem;
-  }
-
-  .hoja__rota {
-    height: calc(786px - 200px);
   }
 }
