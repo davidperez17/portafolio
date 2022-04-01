@@ -113,7 +113,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  width: 30%;
+  width: clamp(300px, 30%, 600px);
   height: auto;
   font-size: 6rem;
 }
@@ -143,7 +143,7 @@ body {
   height: 30px;
 }
 .me__img {
-  width: clamp(200px, 20%, 480px);
+  width: clamp(200px, 60vw, 400px);
   height: min(580px);
   filter: grayscale(1);
   /* border: 1px solid; */
@@ -175,7 +175,7 @@ body {
 
 .hoja__text {
   color: #000;
-  font-size: 2vw;
+  font-size: 3vw;
   text-align: right;
 }
 
