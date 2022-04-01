@@ -175,10 +175,29 @@ body {
 .web__title {
   font-family: "Italiana", serif;
   color: var(--bgc-gray-texto);
+  font-size: 6.5vw;
+  width: 100%;
 }
+.down {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  /* border: 1px solid; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.down img {
+  width: 30px;
+  height: auto;
+}
+
 .web-developer p {
   font-family: "Julius Sans One", sans-serif;
   text-align: justify;
+  font-size: 4vw;
+  width: 100%;
 }
 .web-developer a {
   color: white;
@@ -241,7 +260,7 @@ body {
 .conocimiento__h2 {
   margin-top: 50px;
   text-align: center;
-  font-size: 6rem;
+  font-size: 10rem;
   color: var(--bgc-gray-texto);
 }
 
@@ -250,8 +269,8 @@ body {
   height: auto;
 
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(auto-fill, minmax(230px, 300px));
+  grid-template-rows: repeat(3, 1fr);
 
   justify-content: space-around;
   align-items: center;
@@ -270,9 +289,12 @@ body {
   font-size: 3rem;
 
   text-align: center;
+  font-family: "Julius Sans One", sans-serif;
 
   width: auto;
   height: auto;
+
+  /* border: 1px solid; */
 }
 
 .conocimiento img {
@@ -287,7 +309,7 @@ body {
 }
 
 .form__container {
-  width: 60%;
+  width: 90%;
   height: auto;
   margin: 0 auto;
 
@@ -299,7 +321,7 @@ body {
 }
 
 .form {
-  width: 70%;
+  width: 60%;
   font-family: Arial, Helvetica, sans-serif;
   padding: 50px;
 }
@@ -354,5 +376,28 @@ body {
   }
   .me__txt {
     font-size: 4rem;
+  }
+  .conocimiento__h2 {
+    font-size: 6rem;
+  }
+  .web__title {
+    font-size: 3rem;
+  }
+  .web-developer p {
+    font-size: 2rem;
+  }
+  .conocimiento__h2 {
+    font-size: 4rem;
+  }
+  .conocimiento div {
+    font-size: 2rem;
+  }
+  .form__img {
+    display: none;
+  }
+  .form {
+    width: 100%;
+    padding: 20px;
+    margin: 5px;
   }
 }
