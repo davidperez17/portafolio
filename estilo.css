@@ -376,10 +376,6 @@ body {
     font-size: 4rem;
   }
 
-  .span-3 {
-    align-self: flex-start;
-  }
-
   .hoja__rota {
     height: calc(786px - 200px);
   }
