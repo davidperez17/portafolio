@@ -146,6 +146,24 @@ body {
   height: auto;
 }
 
+.hoja__rota {
+  position: relative;
+  font-size: 3vw;
+  color: #000;
+}
+
+.hoja__rota h2 {
+  position: absolute;
+  left: 30%;
+  bottom: 50%;
+  margin: auto;
+}
+.hoja__rota p {
+  position: absolute;
+  left: 55%;
+  bottom: 45%;
+  margin: auto;
+}
 /* ! web developer */
 .web-developer {
   width: 80%;
