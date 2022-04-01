@@ -100,7 +100,7 @@ body {
 }
 
 .me__info {
-  width: 90%;
+  width: 90vw;
   height: auto;
   margin: 0 auto;
 
@@ -113,7 +113,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  font-size: clamp(7vw, 50%, 9vw);
+  font-size: 9rem;
 
   width: auto;
   height: auto;
@@ -138,7 +138,7 @@ body {
   gap: 10px;
 }
 .logos--end {
-  width: 3vw;
+  width: 4vw;
   height: auto;
 }
 .me--img {
@@ -333,5 +333,8 @@ body {
       "item2 item2 item2"
       "item3 item3 item3"
       "item4 item4 item4";
+  }
+  .me__txt {
+    font-size: 4rem;
   }
 }
