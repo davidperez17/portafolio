@@ -171,18 +171,31 @@ body {
 
   margin: 0 auto;
   font-size: 5rem;
+  /* border: 1px solid; */
+  line-height: 135%;
 }
 .web__title {
   font-family: "Italiana", serif;
   color: var(--bgc-gray-texto);
-  font-size: 6.5vw;
+  font-size: 6.5rem;
   width: 100%;
+  margin: 0 auto;
 }
+
+.web-developer p {
+  font-family: "Julius Sans One", sans-serif;
+  text-align: justify;
+  font-size: 4rem;
+}
+
+.web-developer a {
+  color: white;
+}
+
 .down {
   width: 100%;
   height: auto;
   margin-top: 20px;
-  /* border: 1px solid; */
 
   display: flex;
   justify-content: center;
@@ -193,15 +206,6 @@ body {
   height: auto;
 }
 
-.web-developer p {
-  font-family: "Julius Sans One", sans-serif;
-  text-align: justify;
-  font-size: 4vw;
-  width: 100%;
-}
-.web-developer a {
-  color: white;
-}
 .arrow__down {
   width: 40px;
   height: 40px;
