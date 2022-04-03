@@ -206,6 +206,7 @@ body {
 .down img {
   width: 30px;
   height: auto;
+  margin: 20px 0 0;
 }
 
 .arrow__down {
@@ -266,7 +267,7 @@ body {
 .conocimiento__h2 {
   margin-top: 50px;
   text-align: center;
-  font-size: 10rem;
+  font-size: 6rem;
   color: var(--bgc-gray-texto);
 }
 
@@ -276,7 +277,7 @@ body {
 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 300px));
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
 
   justify-content: space-around;
   align-items: center;
@@ -307,6 +308,7 @@ body {
 }
 
 .form__h2 {
+  margin-top: 20px;
   text-align: center;
   font-size: 6rem;
   color: var(--bgc-gray-texto);
