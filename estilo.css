@@ -386,7 +386,7 @@ textarea {
   bottom: 20px;
   cursor: pointer;
   padding: 10px;
-  width: 60px;
+  width: 80px;
 }
 @media screen and (max-width: 768px) {
   .proyects {
@@ -451,5 +451,8 @@ textarea {
   .form {
     width: 100%;
     padding: 50px;
+  }
+  .arrow-up {
+    width: 60px;
   }
 }
