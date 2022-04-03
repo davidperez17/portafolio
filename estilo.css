@@ -216,7 +216,7 @@ body {
   margin: 20px auto;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
 
   justify-content: center;
@@ -225,8 +225,8 @@ body {
   text-align: center;
 
   grid-template-areas:
-    "item1 item2 item2"
-    "item3 item3 item4";
+    "item1 item2 item2 item2"
+    "item3 item3 item3 item4";
 }
 .proyect__item {
   place-self: center;
@@ -380,11 +380,24 @@ textarea {
 @media screen and (max-width: 768px) {
   .proyects {
     grid-template-areas:
-      "item1 item1 item1"
-      "item2 item2 item2"
-      "item3 item3 item3"
-      "item4 item4 item4";
+      "item1 item1 item2 item2"
+      "item3 item3 item3 item3"
+      "item4 item4 item4 item4";
   }
+
+  .item1 {
+    grid-area: item1;
+  }
+  .item2 {
+    grid-area: item4;
+  }
+  .item3 {
+    grid-area: item3;
+  }
+  .item4 {
+    grid-area: item2;
+  }
+
   .me__txt {
     font-size: 7vw;
   }
