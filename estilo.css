@@ -323,7 +323,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .form {
@@ -362,6 +362,7 @@ body {
 }
 textarea {
   width: 100%;
+  height: 60px;
   resize: none;
 }
 .footer {
