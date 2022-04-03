@@ -433,6 +433,9 @@ textarea {
   .conocimiento {
     gap: 50px;
   }
+  .conocimiento h2 {
+    font-size: 2.5rem;
+  }
   .form__img {
     display: none;
   }
