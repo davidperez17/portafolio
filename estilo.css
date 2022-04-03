@@ -140,7 +140,7 @@ body {
   gap: 10px;
 }
 .logos--end {
-  width: 4vw;
+  width: 4rem;
   height: auto;
 }
 .me--img {
@@ -385,6 +385,9 @@ textarea {
       "item3 item3 item3 item3"
       "item4 item4 item4 item4";
   }
+  .logos--end {
+    width: 2.5rem;
+  }
 
   .item1 {
     grid-area: item1;
@@ -420,6 +423,11 @@ textarea {
   }
   .conocimiento div {
     font-size: 2rem;
+  }
+
+  .conocimiento img {
+    width: 30%;
+    height: auto;
   }
   .form__img {
     display: none;
