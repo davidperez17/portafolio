@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
 html {
@@ -67,6 +68,7 @@ body {
   gap: 5px;
   position: relative;
   z-index: 1;
+  margin-right: 40px;
 
   user-select: none;
   appearance: none;
@@ -82,7 +84,7 @@ body {
   height: 4px;
   position: relative;
 
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   border-radius: 6px;
   z-index: 1;
   transform-origin: 0 0;
@@ -297,8 +299,6 @@ body {
 
   width: auto;
   height: auto;
-
-  /* border: 1px solid; */
 }
 
 .conocimiento img {
@@ -342,7 +342,6 @@ body {
   background-color: #000;
   color: #fff;
 
-  float: right;
   width: 120px;
   height: auto;
   margin-top: 10px;
