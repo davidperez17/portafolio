@@ -430,6 +430,9 @@ textarea {
     width: 30%;
     height: auto;
   }
+  .conocimiento {
+    gap: 50px;
+  }
   .form__img {
     display: none;
   }
