@@ -159,6 +159,7 @@ body {
   left: 30%;
   bottom: 50%;
   margin: auto;
+  color: black;
 }
 .hoja__rota p {
   position: absolute;
@@ -175,13 +176,6 @@ body {
   font-size: 5rem;
 
   line-height: 135%;
-}
-.web__title {
-  font-family: "Italiana", serif;
-  color: var(--bgc-gray-texto);
-  font-size: 6.5rem;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .web-developer p {
@@ -264,7 +258,7 @@ body {
   grid-area: item4;
 }
 
-.conocimiento__h2 {
+h2 {
   margin-top: 50px;
   text-align: center;
   font-size: 6rem;
@@ -305,13 +299,6 @@ body {
 .conocimiento img {
   width: 120px;
   height: 120px;
-}
-
-.form__h2 {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 6rem;
-  color: var(--bgc-gray-texto);
 }
 
 .form__container {
@@ -419,18 +406,10 @@ textarea {
     font-size: 7vw;
   }
 
-  .conocimiento__h2 {
-    font-size: 6rem;
-  }
-  .web__title {
-    font-size: 3rem;
-  }
   .web-developer p {
     font-size: 2rem;
   }
-  .conocimiento__h2 {
-    font-size: 4rem;
-  }
+
   .conocimiento div {
     font-size: 2rem;
   }
@@ -442,8 +421,8 @@ textarea {
   .conocimiento {
     gap: 50px;
   }
-  .conocimiento h2 {
-    font-size: 2.5rem;
+  h2 {
+    font-size: 4rem;
   }
   .form__img {
     display: none;

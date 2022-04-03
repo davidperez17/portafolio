@@ -20,12 +20,12 @@
         <li class="item">
           <a href=""> Contacto </a>
         </li> -->
-        <div class="hamburguesa">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </ul>
+      <div class="hamburguesa">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- </ul> -->
     </nav>
 
     <main class="main">
@@ -37,7 +37,7 @@
           <span class="span-3">Te contaré</span>
           <span class="span-4">quien soy</span>
           <div class="logos">
-            <img  class="logos--end" src="./img/instagram.png" alt="instagram" />
+            <img class="logos--end" src="./img/instagram.png" alt="instagram" />
             <img class="logos--end" src="./img/linkedin.png" alt="linkedin" />
             <img class="logos--end" src="./img/whatsapp.png" alt="whatsapp" />
           </div>
@@ -54,7 +54,7 @@
 
       <!-- TODO Acerca -->
       <div class="web-developer">
-        <h2 class="web__title">Acerca de mi</h2>
+        <h2>Acerca de mi</h2>
         <p>
           Actualmente Estudio en la universidad Mariano Galvez de Guatemala,
           Tengo 21 años, Vivó en
@@ -73,11 +73,14 @@
       </div>
 
       <!-- TODO Proyectos -->
-      <div class="proyects" id="proyecto">
-        <div class="proyect__item item1"></div>
-        <div class="proyect__item item2"></div>
-        <div class="proyect__item item3"></div>
-        <div class="proyect__item item4"></div>
+      <div class="proyect__container">
+        <h2>Proyectos</h2>
+        <div class="proyects" id="proyecto">
+          <div class="proyect__item item1"></div>
+          <div class="proyect__item item2"></div>
+          <div class="proyect__item item3"></div>
+          <div class="proyect__item item4"></div>
+        </div>
       </div>
 
       <!-- * flecha Abajo blanca-->
@@ -89,27 +92,27 @@
       <h2 class="conocimiento__h2">Conocimientos</h2>
       <div class="conocimiento">
         <div>
-          <h2>HTML 5</h2>
+          <h3>HTML 5</h3>
           <img src="./img/html-5-logotype.png" alt="html" />
         </div>
         <div>
-          <h2>CSS</h2>
+          <h3>CSS</h3>
           <img src="./img/css-3.png" alt="css" />
         </div>
         <div>
-          <h2>JS</h2>
+          <h3>JS</h3>
           <img src="./img/java-script.png" alt="JS" />
         </div>
         <div>
-          <h2>GIT</h2>
+          <h3>GIT</h3>
           <img src="./img/git-logo.png" alt="git" />
         </div>
         <div>
-          <h2>GITHUB</h2>
+          <h3>GITHUB</h3>
           <img src="./img/git.png" alt="git-logo" />
         </div>
         <div>
-          <h2>FIGMA</h2>
+          <h3>FIGMA</h3>
           <img src="./img/figma.png" alt="figma" />
         </div>
       </div>
@@ -142,7 +145,7 @@
       </div>
     </main>
 
-    <img id="btn__scroll" class="arrow-up " src="./img/up-arrow.png"  alt="">
+    <img id="btn__scroll" class="arrow-up" src="./img/up-arrow.png" alt="" />
 
     <!-- TODO footer -->
     <footer class="footer">
@@ -154,7 +157,7 @@
       </div>
       <h3>2022</h3>
     </footer>
-     <script>
+    <script>
       const btnScrollToTop = document.querySelector("#btn__scroll");
 
       btnScrollToTop.addEventListener("click", function () {
