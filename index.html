@@ -142,6 +142,8 @@
       </div>
     </main>
 
+    <img id="btn__scroll" class="arrow-up " src="./img/up-arrow.png"  alt="">
+
     <!-- TODO footer -->
     <footer class="footer">
       <h3>©DavidPérez</h3>
@@ -152,5 +154,16 @@
       </div>
       <h3>2022</h3>
     </footer>
+     <script>
+      const btnScrollToTop = document.querySelector("#btn__scroll");
+
+      btnScrollToTop.addEventListener("click", function () {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth",
+        });
+      });
+    </script>
   </body>
 </html>
