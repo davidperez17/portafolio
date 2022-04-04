@@ -10,22 +10,22 @@
   <body>
     <!-- TODO Barra de Navegación -->
     <nav class="nav">
-      <!-- <ul class="lista">
+      <ul class="lista is-active">
         <li class="item">
-          <a href=""> Acerca </a>
+          <a href="#"> Acerca </a>
         </li>
         <li class="item">
-          <a href=""> Proyectos </a>
+          <a href="#"> Proyectos </a>
         </li>
         <li class="item">
-          <a href=""> Contacto </a>
-        </li> -->
-      <div class="hamburguesa">
+          <a href="#"> Contacto </a>
+        </li>
+      </ul>
+      <div class="hamburguesa is-active">
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <!-- </ul> -->
     </nav>
 
     <main class="main">
@@ -48,7 +48,7 @@
       <!-- TODO Parallax Efect -->
       <div class="hoja__rota">
         <img src="./img/Ripped Paper.png" width="100%" alt="" />
-        <h2>"El limite lo pones tu"</h2>
+        <h2>"El límite lo pones tú"</h2>
         <p>-David Pérez</p>
       </div>
 
@@ -157,16 +157,6 @@
       </div>
       <h3>2022</h3>
     </footer>
-    <script>
-      const btnScrollToTop = document.querySelector("#btn__scroll");
-
-      btnScrollToTop.addEventListener("click", function () {
-        window.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: "smooth",
-        });
-      });
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
