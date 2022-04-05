@@ -17,3 +17,7 @@ hamburguesa.addEventListener("click", function () {
 navList.addEventListener("click", function () {
   this.classList.toggle("is-active");
 });
+
+hamburguesa.addEventListener("click", () => {
+  navList.classList.toggle("active");
+});
