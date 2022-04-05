@@ -463,7 +463,10 @@ textarea {
   .arrow-up {
     width: 60px;
   }
-
+  .hamburguesa:hover span:nth-child(2) {
+    transform: none;
+    background-color: none;
+  }
   .lista {
     height: 30px;
   }
