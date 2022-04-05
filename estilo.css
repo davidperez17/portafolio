@@ -38,7 +38,7 @@ body {
   align-items: center;
 }
 .lista {
-  display: none;
+  display: flex;
   list-style: none;
   color: #000;
 
@@ -54,7 +54,7 @@ body {
   gap: 20px;
 }
 .active {
-  display: flex;
+  display: none;
 }
 
 .item a {
