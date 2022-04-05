@@ -383,8 +383,8 @@ textarea {
   align-items: center;
 }
 .logos__final img {
-  width: 30px;
-  height: 30px;
+  width: 4rem;
+  height: auto;
 }
 
 .arrow-up {
@@ -469,5 +469,8 @@ textarea {
   }
   .lista {
     height: 30px;
+  }
+  .logos__final img {
+    width: 3rem;
   }
 }
