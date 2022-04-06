@@ -1,7 +1,6 @@
 const btnScrollToTop = document.querySelector("#btn__scroll");
 const hamburguesa = document.querySelector(".hamburguesa");
 const navList = document.querySelector(".lista");
-
 const background = document.querySelector(".hoja__rota");
 
 btnScrollToTop.addEventListener("click", function () {
