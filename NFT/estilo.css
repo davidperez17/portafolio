@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+}
+.card {
+  width: 330px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+}
+.img__container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__img {
+  max-width: 90%;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+
+.img__hiden {
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+  padding: 100px;
+}
+.img__hiden:active {
+  opacity: 100%;
+}
+
+.card__info {
+  width: 85%;
+  text-align: left;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-top: 25px;
+}
+
+.card__h1 {
+  font-size: 2.2rem;
+}
+
+.card__text {
+  font-size: 1.6rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.time {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Outfit", sans-serif;
+
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.time__text,
+.time__time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.time__text {
+  color: rgb(0, 216, 205);
+}
+.time__time {
+  color: hsl(215, 51%, 70%);
+}
+
+.line {
+  margin-top: 10px;
+  width: 85%;
+  border: 1px solid hsl(215, 32%, 27%, 0.5);
+  background-color: hsl(215, 32%, 27%);
+}
+
+.creator {
+  margin: 25px;
+  width: 85%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.7rem;
+}
+
+.creator__cicle {
+  width: 32px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.creator__card-span {
+  color: hsl(215, 51%, 70%);
+}
+
+/* TODOs Atributos style */
+.attribution {
+  margin-top: 50px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 90%;
+  }
+  .card__h1 {
+    font-size: calc(2.2rem - 25%);
+  }
+  .card__text {
+    font-size: calc(1.6rem - 25%);
+  }
+  .time {
+    font-size: calc(1.2rem - 25%);
+  }
+  .creator {
+    font-size: calc(1.7rem - 25%);
+  }
+  .creator__cicle {
+    width: calc(32px - 25%);
+  }
+}
