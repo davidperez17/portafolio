@@ -97,8 +97,9 @@ a {
 }
 
 .box--2 p {
+  width: 100%;
   text-align: left;
-  font-size: 4rem;
+  font-size: rem;
 }
 
 .box--3 {
@@ -370,7 +371,7 @@ a {
   }
 
   .box--1 {
-    width: 150px;
+    width: 120px;
     /* display: none; */
   }
   .box--3 p {
@@ -383,8 +384,9 @@ a {
     margin-top: 0;
   }
   .box--2 p {
+    width: 100%;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .box--2 img {
