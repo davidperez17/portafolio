@@ -363,6 +363,7 @@ a {
       "box--1 box--2"
       "box--4 box--4"
       "box--3 box--3";
+    gap: 20px;
   }
 
   .box--3 p {
