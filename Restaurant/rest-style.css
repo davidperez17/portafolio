@@ -117,8 +117,6 @@ a {
 
 .box--4 {
   width: 100%;
-  max-width: 650px;
-  min-width: 220px;
   height: auto;
 
   margin-top: -180px;
@@ -360,6 +358,9 @@ a {
 /* Responsive */
 
 @media screen and (max-width: 768px) {
+  .nav__list {
+    font-size: 3rem;
+  }
   .intro {
     grid-template-areas:
       "box--1 box--2"
@@ -391,10 +392,10 @@ a {
     width: 100%;
   }
   .goodFood__text p:nth-child(1) {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .goodFood__text p:nth-child(2) {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .menu img {
@@ -409,8 +410,14 @@ a {
   .acerca img {
     width: 100%;
   }
+  .acerca__texto {
+    width: 100%;
+  }
   .acerca__texto p:nth-child(1) {
-    font-size: 5rem;
+    font-size: 3rem;
+  }
+  .acerca__texto p:nth-child(2) {
+    font-size: 2rem;
   }
 
   .acerca__texto img {
@@ -419,6 +426,9 @@ a {
 
   .masAcerca {
     flex-direction: column;
+  }
+  .masAcerca__texto {
+    width: 100%;
   }
   .masAcerca img {
     width: 100%;
@@ -429,8 +439,11 @@ a {
     display: none;
   }
 
+  .masAcerca__texto p:nth-child(1) {
+    font-size: 3rem;
+  }
   .masAcerca__texto p:nth-child(2) {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .pizza__container {
