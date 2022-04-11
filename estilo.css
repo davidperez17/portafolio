@@ -34,7 +34,7 @@ body {
   margin: 5px auto;
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 .lista {
