@@ -455,6 +455,10 @@ a {
     font-size: 2rem;
   }
 
+  .ubicacion::after {
+    font-size: 2rem;
+  }
+
   .pizza__container {
     width: 100%;
   }
