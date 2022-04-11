@@ -431,7 +431,8 @@ textarea {
 @media screen and (max-width: 768px) {
   .proyects {
     grid-template-areas:
-      "item1 item1 item2 item2"
+      "item1 item1 item1 item1"
+      "item2 item2 item2 item2"
       "item3 item3 item3 item3"
       "item4 item4 item4 item4";
   }
