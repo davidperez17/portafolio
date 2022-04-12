@@ -54,7 +54,7 @@ body {
   width: 100%;
   height: 100%;
 
-  animation: item1 5s ease infinite;
+  animation: item1 5s alternate infinite;
   grid-area: item1;
 }
 
@@ -62,7 +62,7 @@ body {
   width: 100%;
   height: 100%;
 
-  animation: item2 5s ease infinite;
+  animation: item2 5s alternate infinite;
   grid-area: item2;
 }
 
@@ -70,7 +70,7 @@ body {
   width: 100%;
   height: 100%;
 
-  animation: item3 5s ease infinite;
+  animation: item3 5s alternate infinite;
   grid-area: item3;
 }
 
@@ -95,14 +95,14 @@ body {
 .item5 {
   width: 100%;
 
-  animation: item5 5s ease infinite;
+  animation: item5 5s alternate infinite;
   grid-area: item5;
 }
 
 .item6 {
   width: 100%;
 
-  animation: item6 5s ease infinite;
+  animation: item6 5s alternate infinite;
   grid-area: item6;
 }
 
@@ -110,7 +110,7 @@ body {
   width: 100%;
 
   grid-area: item7;
-  animation: item7 5s ease infinite;
+  animation: item7 5s alternate infinite;
 }
 
 @keyframes item1 {
